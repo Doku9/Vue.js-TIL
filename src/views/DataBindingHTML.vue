@@ -1,7 +1,7 @@
 <template>
     <div>
-        <h1>Hello {{ title1 }}</h1>
-        <h1>Hello {{ title2 }}</h1>
+        <div>{{htmlString}}</div>
+        <div v-html="htmlString"></div>
     </div>
 </template>
 <script>
@@ -10,9 +10,8 @@ export default {
     components: {},
     data () {
         return {
-            title1: "World",
-            title2: "Jeremy"
-        }
+            htmlString: "<p style='color:red;'>This is a red string.</p>"
+        };
     },
     created () {},
     mounted () {},

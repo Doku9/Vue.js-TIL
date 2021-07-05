@@ -1,7 +1,6 @@
 <template>
     <div>
-        <h1>Hello {{ title1 }}</h1>
-        <h1>Hello {{ title2 }}</h1>
+        <button :key="coin" v-for="coin in coins">{{ coin }}원 투입</button>
     </div>
 </template>
 <script>
@@ -10,8 +9,7 @@ export default {
     components: {},
     data () {
         return {
-            title1: "World",
-            title2: "Jeremy"
+            coins: [100, 500, 1000]
         }
     },
     created () {},

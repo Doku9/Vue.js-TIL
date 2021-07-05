@@ -2,17 +2,13 @@
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
-    <router-link to="/databinding">DataBinding</router-link> |
-    <router-link to="/databindinghtml">DataBindingHtml</router-link> |
-    <router-link to="/databindingtext">DataBindingText</router-link> |
-    <router-link to="/databindingtextarea">DataBindingTextArea</router-link> |
-    <router-link to="/databindingselect">databindingselect</router-link> |
-    <router-link to="/DataBindingRadio">DataBindingRadio</router-link> |
-    <router-link to="/DataBindingAttribute">DataBindingAttribute</router-link> |
-    <router-link to="/DataBindingButton">DataBindingButton</router-link> |
-    <router-link to="/DataTest">DataTest</router-link> |
-
-
+    <router-link to="/Data">Data</router-link> |
+    <router-link to="/UserList">UserList</router-link> |
+    <router-link to="/DataBinding">DataBinding</router-link> |
+    <router-link to="/vending">vending</router-link> |
+    <router-link to="/DataBindingHTML">DataBindingHTML</router-link> |
+    <router-link to="/DataBindingInputText">DataBindingInputText</router-link> |
+    <router-link to="/restaurant">restaurant</router-link> |
   </div>
   <router-view />
 </template>
