@@ -1,7 +1,8 @@
 <template>
     <div>
-        <h1>Hello {{ title1 }}</h1>
-        <h1>Hello {{ title2 }}</h1>
+        <!-- {{ }}는 해당 데이터를 가져오는 기능입니다. -->
+        <h1>title1 : {{ title1 }}</h1>asdasd
+        <h1>title2 : {{ title2 }}</h1>
     </div>
 </template>
 <script>
@@ -10,8 +11,8 @@ export default {
     components: {},
     data () {
         return {
-            title1: "World",
-            title2: "Jeremy"
+            title1: "데이터",
+            title2: "바인딩"
         }
     },
     created () {},

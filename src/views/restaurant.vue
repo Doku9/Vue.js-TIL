@@ -419,10 +419,10 @@
 
       this.calculateTotalAmount();
     
-    }
+    },
     loadMenus() {
       var h = [];
-      for (var menu of menus) {
+      for (var menu of this.menus) {
         h.push(
           `<button class="menu" onclick="selectFood(${this.menu.menuId});">${this.menu.menuName}(${this.menu.price}원)</button>`);
       }
